@@ -35,3 +35,6 @@ isTrue && (a = 0); // для присвоєння а=5 переше знаяен
 console.log(a);
 
 // умовний оперфтор за допомгою || (or хоча б одне true )
+var someString = "";
+var newSrting = someString || '' || "default text"; //повене перше значення true
+console.log(newSrting)
