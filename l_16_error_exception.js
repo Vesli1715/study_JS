@@ -1,5 +1,5 @@
 // throw (помилка); сторює помилку  
-
+// throw , try , catch , finally
 var calculate = function(n) {
 	if (n>10) throw new Error('some error message'); // if  true викинути помилку
 	return console.log(n + 10);
