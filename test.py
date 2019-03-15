@@ -1,4 +1,11 @@
-def printsome(name):
-	return print('hello ' + name)
-p = printsome
-p("vse")
+n = 1
+
+def one():
+	n=2
+	print(n)
+	def two():
+		print(n)
+		n=2
+
+	return two()
+one()
