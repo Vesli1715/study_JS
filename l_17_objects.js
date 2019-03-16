@@ -35,6 +35,5 @@ console.log(obj);// ?? тільки 20 а мало б ше 10,10
 
 delete person.age
 // console.log(persone.age); 	// error
-console.log('age' in person); 	// false
-console.log('name' in person); 	// true
-
+// console.log('age' in person); 	// false
+// console.log('name' in person); 	// true
