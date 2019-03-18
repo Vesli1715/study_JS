@@ -17,3 +17,16 @@ function func2() {
 		}
 	}
 }
+function func3() {
+	var sel = document.getElementById('mySelect').selectedIndex;
+	var options = document.getElementById('mySelect').options;
+	console.log('Ви вибрали  ' + options[sel].text);
+}
+
+function func4() {
+	var rng = document.getElementById('r1');
+	var p = document.getElementById('one');
+	document.body.appendChild(p);
+	p.innerHTML = 'price is '+ rng.value;
+	console.log(rng.value);
+}
